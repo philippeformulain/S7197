@@ -1,4 +1,4 @@
-import type {Order} from "./order";
+import {Order} from "./order";
 
 export interface Customer {
    readonly orders: Array<Order>;
