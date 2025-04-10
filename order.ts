@@ -1,5 +1,5 @@
 import {Customer} from "./customer";
 
-export interface Order {
-   readonly customer: Customer;
+export class Order {
+   public customer: Customer;
 }
